@@ -127,7 +127,7 @@ class cli_convert_acf_to_gutenberg extends WP_CLI_Command {
     }
 
     private function convert_post_list_block($block) {
-        return 'post list block';
+        return '';
     }
 
     private function convert_image_and_text_block($block) {
@@ -135,11 +135,11 @@ class cli_convert_acf_to_gutenberg extends WP_CLI_Command {
     }
 
     private function convert_measurement_table_block($block) {
-        return 'measurement table block';
+        return '';
     }
 
     private function convert_box_block($block) {
-        return 'box block';
+        return '';
     }
 
     private function convert_text_block($block) {
